@@ -72,12 +72,13 @@
     }
     #restartBtn:hover { background: #1976d2; }
   </style>
+  <audio id="audio" src="superost.mp3"></audio>
 </head>
 <body>
   <canvas id="game"></canvas>
   <div id="ui">
-    <div>HP: <span id="hp">100</span></div>
-    <div>Kills: <span id="kills">0</span></div>
+    <a href="javascript:document.getElementById('audio').play();"><div>HP: <span id="hp">100</span></div>
+    <div>Kills: <span id="kills">0</span></div></a>
   </div>
 
   <div id="mobileControls">
